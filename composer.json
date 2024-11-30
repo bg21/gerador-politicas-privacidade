@@ -1,0 +1,15 @@
+{
+    "require": {
+        "flightphp/core": "^3.13",
+        "php": "^7.3|^8.0",
+        "vlucas/phpdotenv": "^5.6",
+        "monolog/monolog": "^3.8",
+        "mikecao/flight": "*",
+        "ghostff/session": "^3.0"
+    },
+    "autoload":{
+		"psr-4":{
+			"App\\": "App/"
+		}
+	}
+}
