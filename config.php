@@ -11,6 +11,6 @@ date_default_timezone_set('America/Sao_Paulo'); //Nossa fuso horário pra brasil
 
 
 
-define("INCLUDE_PATH", "http://localhost/breviares/breviares/ferramentas/converter-images/");
+define("INCLUDE_PATH", "http://localhost/converter-images/");
 
 define("CONF_UPLOAD_IMAGE_DIR", __DIR__ . "/uploads/imagens/");
