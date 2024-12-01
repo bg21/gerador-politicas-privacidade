@@ -13,7 +13,7 @@ Flight::set('flight.views.path', 'App/Views');
 
 // Registra as rotas
 Flight::route('GET /', ['App\Controllers\PrivacyPolicyController', 'showForm']);
-Flight::route('POST /generatePolicy', ['App\Controllers\PrivacyPolicyController', 'generatePolicy']);
+Flight::route('POST /politica-gerada', ['App\Controllers\PrivacyPolicyController', 'generatePolicy']);
 
 
 Flight::set('flight.log_errors', true);
